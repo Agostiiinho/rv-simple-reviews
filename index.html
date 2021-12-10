@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reviews</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="title">
+      <h1>Reviews</h1>
+    </div>
+
+    <main class="main">
+      <article class="container">
+        <div class="profile-picture">
+          <img id="user-image" src="vaca.jpg" />
+        </div>
+
+        <div class="person-info">
+          <span id="name">Sus Amogus</span>
+          <span id="profession">Professional Impostor Player</span>
+        </div>
+
+        <div class="review-text">
+          <span id="review"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+            error alias totam dolorem ex molestias soluta necessitatibus, minima
+            eveniet. Quis, tenetur nobis? Obcaecati sequi officiis saepe, esse
+            unde dolor possimus.</span
+          >
+        </div>
+
+        <div class="buttons">
+          <button onclick="previousPerson()" class="btn" id="prevBtn">
+            &lt;
+          </button>
+          <button onclick="nextPerson()" class="btn" id="nextBtn">&gt;</button>
+        </div>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".container"), {
+        max: 8,
+        speed: 100,
+      });
+    </script>
+  </body>
+</html>

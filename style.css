@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #5155ee;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+
+  text-align: center;
+}
+
+h1 {
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 900;
+  font-size: 5rem;
+  color: white;
+}
+
+.title {
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+article {
+  max-width: 50rem;
+}
+
+.container {
+  padding: 3rem;
+  margin: auto;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.profile-picture {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 30%;
+  height: auto;
+  border-radius: 50%;
+}
+
+#name {
+  font-weight: 700;
+}
+
+#profession {
+  color: #5155ee;
+}
+
+.person-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.review-text {
+  margin: 3rem 2rem;
+}
+
+.buttons {
+  gap: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+button {
+  background: transparent;
+  display: inline-block;
+  border: 0.3rem solid #5155ee;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  font-size: 2.2rem;
+  font-weight: 400;
+  cursor: pointer;
+  color: #5155ee;
+  transition: all ease 0.3s;
+}
+
+button:hover {
+  background: #5155ee;
+  color: white;
+}
